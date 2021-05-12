@@ -18,7 +18,7 @@ class HeaderComponent extends React.Component{
     }
     render() {
        return(
-           <div>
+           <div id="nav" >
                <ul ref={this.theLi}>
                {
                 this.state.l.map((val)=>{
