@@ -6,7 +6,7 @@ class HeaderComponent extends React.Component{
         this.theLi = React.createRef()
     }
     state = {
-        "l":[1,2,34],
+        "l":[1,'ss',34],
         "r":[11,22,33]
     }
     
