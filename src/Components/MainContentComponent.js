@@ -7,6 +7,7 @@ export default class MainContentComponent extends React.Component {
   render() {
     return <div id="content">
         <div>访问日期  {this.state.curTime}</div>
+        <div>from Signal</div>
     </div>;
   }
 }
